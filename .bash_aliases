@@ -1,4 +1,4 @@
-Directory Aliases
+# Directory Aliases
 alias dev="cd ~/Dev"
 
 # Python related aliases
@@ -40,9 +40,4 @@ alias c3000="lsof -i:3000"
 alias c5000="lsof -i:5000"
 
 # Bash aliases
-alias remove="rm -rf"
-
-# docker aliases
-alias rebuild="docker-compose down --remove-orphans && docker-compose up --build -d && docker-compose logs -f"
-alias prune="docker system prune -a -f"
-alias dockgic="docker rm -f -v $(docker ps -a -q) && docker rmi -f $(docker images -a)"
+alias rem="rm -rf"
