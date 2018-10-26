@@ -1,5 +1,6 @@
 # Directory Aliases
 alias dev="cd ~/Dev"
+alias bcast="cd ~/Dev/brandcast"
 
 # Python related aliases
 alias runserve="python manage.py runserver"
@@ -13,13 +14,14 @@ alias venv2="mkvirtualenv --python=python"
 # Git Aliases
 alias gnedit="git commit --amend --no-edit"
 alias ga="git add"
-alias gc="git commit -m"
+alias gc="git commit"
 alias branch="git branch -a"
 alias check="git checkout"
 alias HEAD+="git push origin +HEAD"
 alias HEAD="git push origin HEAD"
 alias gforce="ga . && gnedit"
 alias gforce+="gforce && HEAD+"
+alias gst="git status"
 
 # React-Native aliases
 alias rnra="react-native run-android"
